@@ -1,0 +1,14 @@
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\bin\Debug\netcoreapp3.1\Practice5_Registration.exe
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\bin\Debug\netcoreapp3.1\Practice5_Registration.deps.json
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\bin\Debug\netcoreapp3.1\Practice5_Registration.runtimeconfig.json
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\bin\Debug\netcoreapp3.1\Practice5_Registration.runtimeconfig.dev.json
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\bin\Debug\netcoreapp3.1\Practice5_Registration.dll
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\bin\Debug\netcoreapp3.1\Practice5_Registration.pdb
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.AssemblyInfoInputs.cache
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.AssemblyInfo.cs
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.dll
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.pdb
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.genruntimeconfig.cache
+C:\Users\andri\source\repos\Practice5\Practice5_Registration\obj\Debug\netcoreapp3.1\Practice5_Registration.csproj.AssemblyReference.cache

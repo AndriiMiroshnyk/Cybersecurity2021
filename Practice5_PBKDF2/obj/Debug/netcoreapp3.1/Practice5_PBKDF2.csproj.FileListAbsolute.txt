@@ -1,0 +1,14 @@
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\bin\Debug\netcoreapp3.1\Practice5_PBKDF2.exe
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\bin\Debug\netcoreapp3.1\Practice5_PBKDF2.deps.json
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\bin\Debug\netcoreapp3.1\Practice5_PBKDF2.runtimeconfig.json
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\bin\Debug\netcoreapp3.1\Practice5_PBKDF2.runtimeconfig.dev.json
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\bin\Debug\netcoreapp3.1\Practice5_PBKDF2.dll
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\bin\Debug\netcoreapp3.1\Practice5_PBKDF2.pdb
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.csproj.AssemblyReference.cache
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.AssemblyInfoInputs.cache
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.AssemblyInfo.cs
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.dll
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.pdb
+C:\Users\andri\source\repos\Practice5\Practice5_PBKDF2\obj\Debug\netcoreapp3.1\Practice5_PBKDF2.genruntimeconfig.cache
