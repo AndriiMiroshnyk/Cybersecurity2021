@@ -1,0 +1,14 @@
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\bin\Debug\netcoreapp3.1\Practice6_Task2.exe
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\bin\Debug\netcoreapp3.1\Practice6_Task2.deps.json
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\bin\Debug\netcoreapp3.1\Practice6_Task2.runtimeconfig.json
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\bin\Debug\netcoreapp3.1\Practice6_Task2.runtimeconfig.dev.json
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\bin\Debug\netcoreapp3.1\Practice6_Task2.dll
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\bin\Debug\netcoreapp3.1\Practice6_Task2.pdb
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.AssemblyInfoInputs.cache
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.AssemblyInfo.cs
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.dll
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.pdb
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.genruntimeconfig.cache
+C:\Users\andri\source\repos\Practice6\Practice6_Task2\obj\Debug\netcoreapp3.1\Practice6_Task2.csproj.AssemblyReference.cache
