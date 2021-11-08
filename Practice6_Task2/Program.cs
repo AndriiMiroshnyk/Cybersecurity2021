@@ -16,11 +16,18 @@ namespace Practice6_Task2
                 return randomNumber;
             }
         }
-        public static byte[] HashPassword(byte[] toBeHashed, byte[] salt, int numberOfRounds, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, Int32 NumberOfBytes)
+        public static byte[] HashKey(byte[] toBeHashed, byte[] salt, int numberOfRounds, System.Security.Cryptography.HashAlgorithmName hashAlgorithm)
         {
             using (var rfc2898 = new Rfc2898DeriveBytes(toBeHashed, salt, numberOfRounds, HashAlgorithmName.SHA256))
             {
-                return rfc2898.GetBytes(NumberOfBytes);
+                return rfc2898.GetBytes(32);
+            }
+        }
+        public static byte[] HashIv(byte[] toBeHashed, byte[] salt, int numberOfRounds, System.Security.Cryptography.HashAlgorithmName hashAlgorithm)
+        {
+            using (var rfc2898 = new Rfc2898DeriveBytes(toBeHashed, salt, numberOfRounds, HashAlgorithmName.SHA256))
+            {
+                return rfc2898.GetBytes(16);
             }
         }
     }
@@ -66,9 +73,10 @@ namespace Practice6_Task2
         static void Main(string[] args)
         {
             const string original = "C0mplexText";
+            var pass = PBKDF2.GenerateSalt();
             var aes = new aesChipher();
-            var aeskey = PBKDF2.HashPassword(Encoding.Unicode.GetBytes(original), PBKDF2.GenerateSalt(), 170000, HashAlgorithmName.SHA256, 32);
-            var aesiv = PBKDF2.HashPassword(Encoding.Unicode.GetBytes(original), PBKDF2.GenerateSalt(), 170000, HashAlgorithmName.SHA256, 16);
+            var aeskey = PBKDF2.HashKey(pass, PBKDF2.GenerateSalt(), 170000, HashAlgorithmName.SHA256);
+            var aesiv = PBKDF2.HashIv(pass, PBKDF2.GenerateSalt(), 170000, HashAlgorithmName.SHA256);
             var encrypted = aes.Encrypt(Encoding.UTF8.GetBytes(original), aeskey, aesiv);
             var decrypted = aes.Decrypt(encrypted, aeskey, aesiv);
             var decryptedMessage = Encoding.UTF8.GetString(decrypted);
