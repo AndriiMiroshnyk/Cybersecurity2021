@@ -77,6 +77,10 @@ namespace Practice7_Task2
                 Console.WriteLine("----------------------");
                 Console.WriteLine("Encrypted Data: " + Convert.ToBase64String(encrypted));
             }
+            else
+            {
+                Console.WriteLine("Incorrect Data! Please try again!");
+            }
         }
     }
 }
