@@ -1,0 +1,14 @@
+C:\Users\andri\source\repos\Practice9\Practice9\bin\Debug\netcoreapp3.1\Practice9.exe
+C:\Users\andri\source\repos\Practice9\Practice9\bin\Debug\netcoreapp3.1\Practice9.deps.json
+C:\Users\andri\source\repos\Practice9\Practice9\bin\Debug\netcoreapp3.1\Practice9.runtimeconfig.json
+C:\Users\andri\source\repos\Practice9\Practice9\bin\Debug\netcoreapp3.1\Practice9.runtimeconfig.dev.json
+C:\Users\andri\source\repos\Practice9\Practice9\bin\Debug\netcoreapp3.1\Practice9.dll
+C:\Users\andri\source\repos\Practice9\Practice9\bin\Debug\netcoreapp3.1\Practice9.pdb
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.csproj.AssemblyReference.cache
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.AssemblyInfoInputs.cache
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.AssemblyInfo.cs
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.dll
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.pdb
+C:\Users\andri\source\repos\Practice9\Practice9\obj\Debug\netcoreapp3.1\Practice9.genruntimeconfig.cache
