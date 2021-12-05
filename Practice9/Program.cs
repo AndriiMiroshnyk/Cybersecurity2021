@@ -8,13 +8,24 @@ namespace Practice9
     class Program
     {
         private readonly static string CspContainerName = "RsaContainer";
-        public static byte[] SignData(byte[] dataToSign)
+        public static void GenerateKeys(string publicKeyPath)
         {
             CspParameters cspParameters = new CspParameters(1)
             {
                 KeyContainerName = CspContainerName,
-                Flags = CspProviderFlags.UseMachineKeyStore,
                 ProviderName = "Microsoft Strong Cryptographic Provider"
+            };
+            using (var rsa = new RSACryptoServiceProvider(2048, cspParameters))
+            {
+                rsa.PersistKeyInCsp = true;
+                File.WriteAllText(publicKeyPath, rsa.ToXmlString(false));
+            }
+        }
+        public static byte[] SignData(byte[] dataToSign)
+        {
+            CspParameters cspParameters = new CspParameters
+            {
+                KeyContainerName = CspContainerName
             };
             using (var rsa = new RSACryptoServiceProvider(2048, cspParameters))
             {
@@ -28,32 +39,6 @@ namespace Practice9
                 }
                 return rsaFormatter.CreateSignature(hashofData);
             }
-        }
-        public static void DeleteKeyInCsp()
-        {
-            CspParameters cspParameters = new CspParameters
-            {
-                KeyContainerName = CspContainerName,
-                Flags = CspProviderFlags.UseMachineKeyStore
-            };
-            var rsa = new RSACryptoServiceProvider(cspParameters)
-            {
-                PersistKeyInCsp = false
-            };
-            rsa.Clear();
-        }
-        public static void GenerateKeys()
-        {
-            CspParameters cspParameters = new CspParameters(1)
-            {
-                KeyContainerName = CspContainerName,
-                Flags = CspProviderFlags.UseMachineKeyStore,
-                ProviderName = "Microsoft Strong Cryptographic Provider"
-            };
-            var rsa = new RSACryptoServiceProvider(cspParameters)
-            {
-                PersistKeyInCsp = true
-            };
         }
         public static bool VerifySignature(string publicKey, byte[] dataToSign, byte[] signature)
         {
@@ -70,15 +55,22 @@ namespace Practice9
                 }
                 return rsaDeformatter.VerifySignature(hashofData, signature);
             }
-        } 
+        }
         static void Main(string[] args)
         {
-            DeleteKeyInCsp();
-            GenerateKeys();
-            string originalText = "Hello C#!";
+            string originalText = "Hello C#";
             byte[] textinBytes = Encoding.UTF8.GetBytes(originalText);
-            var signedText = SignData(textinBytes);
-            var verifySignature = VerifySignature("Miroshnyk.xml", textinBytes, signedText);
+            GenerateKeys("Miroshnyk.xml");
+            var signedData = SignData(textinBytes);
+            var verifySignature = VerifySignature("Miroshnyk.xml", textinBytes, signedData);
+            if (verifySignature)
+            {
+                Console.WriteLine("The Digital Signature is verified");
+            }
+            else
+            {
+                Console.WriteLine("The Digital Signature is not verified"); 
+            }
         }
     }
 }
