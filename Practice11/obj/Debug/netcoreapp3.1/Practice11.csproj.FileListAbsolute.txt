@@ -1,0 +1,14 @@
+C:\Users\andri\source\repos\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.exe
+C:\Users\andri\source\repos\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.deps.json
+C:\Users\andri\source\repos\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.runtimeconfig.json
+C:\Users\andri\source\repos\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.runtimeconfig.dev.json
+C:\Users\andri\source\repos\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.dll
+C:\Users\andri\source\repos\Practice11\Practice11\bin\Debug\netcoreapp3.1\Practice11.pdb
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.csproj.AssemblyReference.cache
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.AssemblyInfoInputs.cache
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.AssemblyInfo.cs
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.dll
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.pdb
+C:\Users\andri\source\repos\Practice11\Practice11\obj\Debug\netcoreapp3.1\Practice11.genruntimeconfig.cache
