@@ -1,0 +1,14 @@
+2021-12-15 19:32:05.5569 Error Practice13.Program.Main Entered wrong number of roles! Arithmetic operation resulted in an overflow.
+2021-12-15 20:48:13.6068 Warn Practice13.Protector.Register User already exists 
+2021-12-15 21:05:45.2785 Warn Practice13.Protector.Register User already exists 
+2021-12-15 21:07:16.1060 Warn Practice13.Protector.CheckFeatures Denying access to group 'Owners' 
+2021-12-15 21:07:16.1060 Warn Practice13.Protector.CheckFeatures Denying access to group 'Managers' 
+2021-12-15 21:07:16.1060 Warn Practice13.Protector.CheckFeatures Denying access to group 'Guests' 
+2021-12-15 21:07:35.0440 Warn Practice13.Protector.CheckFeatures Denying access to group 'Guests' 
+2021-12-15 21:07:41.4807 Warn Practice13.Protector.CheckFeatures Denying access to group 'Admins' 
+2021-12-15 21:07:41.4986 Warn Practice13.Protector.CheckFeatures Denying access to group 'Owners' 
+2021-12-15 21:07:41.4986 Warn Practice13.Protector.CheckFeatures Denying access to group 'Managers' 
+2021-12-15 21:07:47.9347 Warn Practice13.Protector.CheckPassword Entered wrong login! 
+2021-12-15 21:07:47.9347 Fatal Practice13.Program.Main Wrong password! Please enter correct password! 
+2021-12-15 21:09:39.8387 Warn Practice13.Protector.CheckPassword Entered wrong password! 
+2021-12-15 21:09:39.8476 Fatal Practice13.Program.Main Wrong password! Please enter correct password! 
